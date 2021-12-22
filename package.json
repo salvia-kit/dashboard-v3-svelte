@@ -45,11 +45,11 @@
 	},
 	"type": "module",
 	"lint-staged": {
-		"*.+(js|ts|svelte)": [
-			"yarn run lint"
-		],
 		"*.+(js|json|ts|svelte)": [
 			"yarn run format"
+		],
+		"*.+(js|ts|svelte)": [
+			"yarn run lint"
 		]
 	}
 }
