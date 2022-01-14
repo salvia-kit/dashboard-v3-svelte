@@ -108,34 +108,34 @@
 					</span>
 				</div>
 				<div class="flex -space-x-2">
-					<a href="#">
+					<span>
 						<img
 							class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
 							src="/images/5.jpg"
 							alt="Guy"
 						/>
-					</a>
-					<a href="#" class="">
+					</span>
+					<span class="">
 						<img
 							class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
 							src="/images/6.jpg"
 							alt="Max"
 						/>
-					</a>
-					<a href="#" class="">
+					</span>
+					<span class="">
 						<img
 							class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
 							src="/images/7.jpg"
 							alt="Charles"
 						/>
-					</a>
-					<a href="#" class="">
+					</span>
+					<span>
 						<img
 							class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
 							src="/images/8.jpg"
 							alt="Jade"
 						/>
-					</a>
+					</span>
 				</div>
 				<span
 					class="px-2 py-1 flex w-36 mt-4 items-center text-xs rounded-md font-semibold text-yellow-500 bg-yellow-100"
@@ -155,7 +155,7 @@
 								viewBox="0 0 2447.6 2452.5"
 								xmlns="http://www.w3.org/2000/svg"
 							>
-								<g clipRule="evenodd" fillRule="evenodd">
+								<g clip-rule="evenodd" fill-rule="evenodd">
 									<path
 										d="m897.4 0c-135.3.1-244.8 109.9-244.7 245.2-.1 135.3 109.5 245.1 244.8 245.2h244.8v-245.1c.1-135.3-109.5-245.1-244.9-245.3.1 0 .1 0 0 0m0 654h-652.6c-135.3.1-244.9 109.9-244.8 245.2-.2 135.3 109.4 245.1 244.7 245.3h652.7c135.3-.1 244.9-109.9 244.8-245.2.1-135.4-109.5-245.2-244.8-245.3z"
 										fill="#36c5f0"
@@ -247,34 +247,34 @@
 					</span>
 				</div>
 				<div class="flex -space-x-2">
-					<a href="#">
+					<span>
 						<img
 							class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
 							src="/images/5.jpg"
 							alt="Guy"
 						/>
-					</a>
-					<a href="#" class="">
+					</span>
+					<span>
 						<img
 							class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
 							src="/images/6.jpg"
 							alt="Max"
 						/>
-					</a>
-					<a href="#" class="">
+					</span>
+					<span>
 						<img
 							class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
 							src="/images/7.jpg"
 							alt="Charles"
 						/>
-					</a>
-					<a href="#" class="">
+					</span>
+					<span>
 						<img
 							class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
 							src="/images/8.jpg"
 							alt="Jade"
 						/>
-					</a>
+					</span>
 				</div>
 				<span
 					class="px-2 py-1 flex w-36 mt-4 items-center text-xs rounded-md font-semibold text-yellow-500 bg-yellow-100"
@@ -657,13 +657,13 @@
 				<p class="font-bold text-md text-black dark:text-white">Messages</p>
 				<ul>
 					<li class="flex items-center my-6 space-x-2">
-						<a href="#" class="block relative">
+						<span class="block relative">
 							<img
 								alt="Maurice Lokumba"
 								src="/images/2.jpg"
 								class="mx-auto object-cover rounded-full h-10 w-10 "
 							/>
-						</a>
+						</span>
 						<div class="flex flex-col">
 							<span class="text-sm text-gray-900 font-semibold dark:text-white ml-2">
 								Maurice
@@ -674,13 +674,13 @@
 						</div>
 					</li>
 					<li class="flex items-center my-6 space-x-2">
-						<a href="#" class="block relative">
+						<span class="block relative">
 							<img
 								alt="Enoch Ndika"
 								src="/images/1.jpg"
 								class="mx-auto object-cover rounded-full h-10 w-10 "
 							/>
-						</a>
+						</span>
 						<div class="flex flex-col">
 							<span class="text-sm text-gray-900 font-semibold dark:text-white ml-2"> Enoch </span>
 							<span class="text-sm text-gray-400 dark:text-gray-300 ml-2">
@@ -689,13 +689,13 @@
 						</div>
 					</li>
 					<li class="flex items-center my-6 space-x-2">
-						<a href="#" class="block relative">
+						<span class="block relative">
 							<img
 								alt="CR7"
 								src="/images/3.png"
 								class="mx-auto object-cover rounded-full h-10 w-10 "
 							/>
-						</a>
+						</span>
 						<div class="flex flex-col">
 							<span class="text-sm text-gray-900 font-semibold dark:text-white ml-2">
 								Cristiano
@@ -706,13 +706,13 @@
 						</div>
 					</li>
 					<li class="flex items-center my-6 space-x-2">
-						<a href="#" class="block relative">
+						<span class="block relative">
 							<img
 								alt="Lionel Messi"
 								src="/images/4.jpg"
 								class="mx-auto object-cover rounded-full h-10 w-10 "
 							/>
-						</a>
+						</span>
 						<div class="flex flex-col">
 							<span class="text-sm text-gray-900 font-semibold dark:text-white ml-2"> Messi </span>
 							<span class="text-sm text-gray-400 dark:text-gray-300 ml-2">
@@ -725,23 +725,3 @@
 		</div>
 	</div>
 </div>
-
-<style>
-	.custom-bg {
-		background-image: linear-gradient(
-			to right top,
-			#cf4af3,
-			#e73bd7,
-			#f631bc,
-			#fd31a2,
-			#ff3a8b,
-			#ff4b78,
-			#ff5e68,
-			#ff705c,
-			#ff8c51,
-			#ffaa49,
-			#ffc848,
-			#ffe652
-		);
-	}
-</style>
