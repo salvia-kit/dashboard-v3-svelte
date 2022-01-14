@@ -659,7 +659,7 @@
 					<li class="flex items-center my-6 space-x-2">
 						<span class="block relative">
 							<img
-								alt="Maurice Lokumba"
+								alt="Maurice"
 								src="/images/2.jpg"
 								class="mx-auto object-cover rounded-full h-10 w-10 "
 							/>
