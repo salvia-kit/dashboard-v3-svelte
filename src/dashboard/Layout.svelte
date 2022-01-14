@@ -7,7 +7,7 @@
 	import TopNavigation from './topnavigation/Index.svelte';
 	import SideNavigation from './sidenavigation/Index.svelte';
 
-	/*	w-[calc(100%-16rem)] class get the remain width of the main tag from lg:viewport by dividing
+	/*	w-[calc(100%-16rem)] class get the remain width of the main tag from lg:viewport by subtracting
 (the total width by the width of the side navigation component which is w-64 = 16rem)*/
 
 	const style = {
@@ -18,6 +18,10 @@
 		main: `h-screen overflow-auto pb-36 pt-8 px-2 md:pb-8 md:pt-4 lg:pt-0`
 	};
 
+	onMount(() => {
+		document.getElementsByTagName('body').item(0).removeAttribute('tabindex');
+	});
+
 	if (browser) {
 		page.subscribe(() => {
 			// close side navigation when route changes when viewport < 1024px
@@ -26,10 +30,6 @@
 			}
 		});
 	}
-
-	onMount(() => {
-		document.getElementsByTagName('body').item(0).removeAttribute('tabindex');
-	});
 </script>
 
 <div class={style.container}>
